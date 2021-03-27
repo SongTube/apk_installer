@@ -17,7 +17,7 @@ rootProject.allprojects {
         google()
         jcenter()
         // Comment this if you're building Release, this is for Android Studio indexing
-        maven { url 'http://download.flutter.io' }
+        // maven { url 'http://download.flutter.io' }
     }
 }
 
@@ -32,7 +32,7 @@ android {
 
     dependencies {
         // Comment this if you're building Release, this is for Android Studio indexing
-        api "io.flutter:flutter_embedding_debug:1.0.0-d4453f601890ec682bbf8f5659b70f15cce1d67d"
+        // api "io.flutter:flutter_embedding_debug:1.0.0-d4453f601890ec682bbf8f5659b70f15cce1d67d"
         implementation 'org.apache.commons:commons-io:1.3.2'
     }
 }
